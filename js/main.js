@@ -115,6 +115,11 @@ $(document).ready(function () {
         $(this).toggleClass('open');
         $('#scroller').toggleClass('d-none');
     })
+    $('.menu-list__item a').on('click', function () {
+        $('.menu').removeClass('active');
+        $('#scroller').removeClass('d-none');
+        $('.hamburger-btn').removeClass('open');
+    })
 });
 
 
