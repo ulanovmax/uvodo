@@ -524,8 +524,8 @@ p {
   position: relative;
   top: 50%;
   left: 50%;
-  width: 900px;
-  height: 600px;
+  width: 64px;
+  height: 64px;
   margin-top: -32px;
   margin-left: -32px;
   background: url("../img/preloader.gif") no-repeat 50% 50%;
